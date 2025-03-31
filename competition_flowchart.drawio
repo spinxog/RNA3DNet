@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram name="Page-1" id="lj_LhWZyxu43EcETwQhh">
+    <mxGraphModel dx="627" dy="2971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-1" value="Clustering :&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-K-mean&lt;div&gt;&lt;div&gt;-hierarchical clustering&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;-DBSCAN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-470" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-2" value="Unsupervised learning techniques" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-3" value="Dimensionality reduction:&lt;div&gt;-PCA (Principal Component Analysis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- t-SNE (t-&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;distributed Stochastic Neighbor Embedding)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-UMAP&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Uniform Manifold Approximation and Projection)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="-470" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-4" value="Autoencoders:&lt;div&gt;- Protein Sequence Autoencoder&lt;/div&gt;&lt;div&gt;- Protein Struture Autoencoder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-470" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-5" value="Graph based:&lt;div&gt;- Graph Neural networks&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="-470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tdhe3Uob-zaO0o6f_0B7-2" target="tdhe3Uob-zaO0o6f_0B7-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-160" as="sourcePoint" />
+            <mxPoint x="410" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tdhe3Uob-zaO0o6f_0B7-2" target="tdhe3Uob-zaO0o6f_0B7-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-160" as="sourcePoint" />
+            <mxPoint x="410" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tdhe3Uob-zaO0o6f_0B7-2" target="tdhe3Uob-zaO0o6f_0B7-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-160" as="sourcePoint" />
+            <mxPoint x="410" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="tdhe3Uob-zaO0o6f_0B7-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="-540" as="sourcePoint" />
+            <mxPoint x="410" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-11" value="data preprocessing&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="-1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-14" value="Noise reduction&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-15" value="if needed&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tdhe3Uob-zaO0o6f_0B7-16" value="Removting duplicates&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-1" value="foo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-2" value="Foo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-3" value="Test and Eval stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-4" value="&lt;ul style=&quot;font-size: medium; text-align: start;&quot; class=&quot;ul1&quot;&gt;&lt;li style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;li1&quot;&gt;&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 9px; line-height: normal; font-family: Menlo;&quot; class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;b&gt;Silhouette Score&lt;/b&gt; for clustering.&lt;/li&gt;&lt;li style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;li1&quot;&gt;&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 9px; line-height: normal; font-family: Menlo;&quot; class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;b&gt;Visualizations&lt;/b&gt; like t-SNE or UMAP to explore the latent space.&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;li1&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Interpretability&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Check if the model can discover biologically meaningful patterns (e.g., clustering sequences of proteins with similar functions).&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot; class=&quot;li1&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="350" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-6" value="&lt;h1 style=&quot;border: 0px; font-family: zeitung, sans-serif; font-size: 36px; font-variant-alternates: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-variant-emoji: inherit; margin: 0px 0px 16px; padding: 0px; vertical-align: baseline; color: rgb(32, 33, 36); line-height: 44px; text-align: start; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot; class=&quot;sc-jwIPbr sc-emnui ojfEn fEBekf&quot;&gt;Stanford RNA 3D Folding&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-1230" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-8" value="look into implenting bend&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="224" y="1" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aSF3ZtwVuixvQ8shIfqM-10" value="https://github.com/HigherOrderCO/Bend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="195" y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
