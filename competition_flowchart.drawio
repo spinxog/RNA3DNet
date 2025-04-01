@@ -79,14 +79,11 @@
         <mxCell id="aSF3ZtwVuixvQ8shIfqM-10" value="https://github.com/HigherOrderCO/Bend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="195" y="40" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H7s_FI25dCPL3xTWFhCw-1" value="Custom architecture for model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="-990" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="H7s_FI25dCPL3xTWFhCw-3" value="will custom train a model&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="-810" width="120" height="40" as="geometry" />
+          <mxGeometry x="1120" y="-900" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H7s_FI25dCPL3xTWFhCw-5" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap;&quot;&gt;Custom architecture for model&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="914" y="-879" width="180" height="30" as="geometry" />
+          <mxGeometry x="970" y="-950" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
