@@ -7,3 +7,13 @@ stanford-rna-3d-folding.zip
 rna3dnet_baseline.pt
 
 best_model.pt
+
+setnet.pt
+
+mean_std.pt
+
+ignore.py
+
+split_indices_ids.pkl
+
+new.py
